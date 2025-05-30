@@ -2,6 +2,7 @@ import express from 'express';
 import { controllers } from './controllers/controllers.js';
 import { errorHandlerMiddleware } from './middlewares/error_handler_middleware.js';
 import { logMiddleware } from './middlewares/log.middleware.js';
+import config from './config.js'
 
 const app = express();
 
