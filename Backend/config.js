@@ -1,7 +1,7 @@
 import configLocal from './configLocal.js'
 
 var config = {
-    port : 3005,
+    port : 3000,
     ...configLocal,
 };
 

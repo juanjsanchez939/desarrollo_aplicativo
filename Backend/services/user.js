@@ -1,8 +1,8 @@
-import { getDependencies } from "../libs/dependencies";
+import { getDependency } from "../libs/dependencies.js";
 
 export class UserService{
     static async getSingleOrNullByUsername(username){
-        const UserModel = getDependencies('UserModel');
+        const UserModel = getDependency('UserModel');
         return await UserModel.getSingleOrNullByUsername(username);
     }
 }
