@@ -5,7 +5,7 @@ export default [
     {
         files: ['**/*.js'],
         languageOptions: {
-            exmaVersion: 2020,
+            exmaVersion: 2022,
             globals: {
                 ...globals.browser,
                 ...globals.builtin,
