@@ -1,4 +1,4 @@
-import configLocal from './configLocal.js'
+import configLocal from './config.local.js';
 
 var config = {
     port : 3000,
