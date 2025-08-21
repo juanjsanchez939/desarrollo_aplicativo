@@ -18,7 +18,6 @@ mongoose.connect(config.dbconnection)
 
 
 const app = express();
-
 const router = express.Router();
 app.use('/api', router);
 
