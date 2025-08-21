@@ -23,7 +23,7 @@ export function authorizationMiddleware(req, res, next) {
   const data = jwt.verify(token, config.jwtKey);
 
   req.session = data;
-
+    
   next();
 }
 export function checkForRole(role) {

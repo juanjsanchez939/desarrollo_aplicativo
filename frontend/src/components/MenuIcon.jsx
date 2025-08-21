@@ -8,7 +8,7 @@ export default function MenuIcon({
 
   return (
     <img
-      src="/lista.png"
+      src="./lista.png"
       alt="Menú"
       style={{
         height: '1.5em',

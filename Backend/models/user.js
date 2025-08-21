@@ -1,6 +1,7 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({
+    uuid: String,
     username: String,
     hashedPassword: String,
     fullName: String,
@@ -8,7 +9,4 @@ const userSchema = new mongoose.Schema({
     email: String,
 });
 
-export default mongoose.model("User", userSchema);
-
-
-
+export default mongoose.model('users', userSchema);

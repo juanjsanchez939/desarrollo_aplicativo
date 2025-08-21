@@ -1,6 +1,6 @@
 export class InvalidArgumentException extends Error {
-    constructor(){
-        super('Argumentos Invalidos.');
-        this.statusCode = 400;
-    }
+  constructor(msg) {
+    super(msg || 'Argumentos inválidos.');
+    this.statusCode = 400;
+  }
 }

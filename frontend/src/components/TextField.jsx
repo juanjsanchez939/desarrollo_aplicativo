@@ -1,19 +1,19 @@
 export default function TextField({
-    label,
-    name,
-    value,
-    onChange,
-    ...props
+  label,
+  name,
+  value,
+  onChange,
+  ...props
 }) {
   return (
     <label>
       { label }
-      <input 
+      <input
         name={name}
         value={value}
         onChange={onChange}
         {...props}
-       />
+      />
     </label>
   );
 }
